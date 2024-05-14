@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title></title>
+</head>
+<body>
+    <div id="root">
+        <div class="navbar">
+            <h2>Software Factory</h2>
+            <nav id="nav" class="links">
+                <a href="/" onclick="route()" class="nav-link">Inicio</a>
+                <a href="/servicios" onclick="route()" class="nav-link">Servicios</a>
+                <a href="/productos" onclick="route()" class="nav-link">Productos</a>
+                <a href="/contacto" onclick="route()" class="nav-link contact">Contacto</a>
+            </>   
+        </div>
+        <div id="main">
+            <!-- routes.js -->
+        </div>  
+        <footer>
+            <h3>MENU</h3>
+            <a href="/" onclick="route()" class="footer-link">Inicio</a>
+            <a href="/servicios" onclick="route()" class="footer-link">Servicios</a>
+            <a href="/productos" onclick="route()" class="footer-link">Productos</a>
+            <a href="/contacto" onclick="route()" class="footer-link">Contacto</a>
+        </footer>   
+    </div>
+    <script src="./js/router.js"></script>
+</body>
+</html>
